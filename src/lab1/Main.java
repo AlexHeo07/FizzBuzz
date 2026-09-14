@@ -4,6 +4,6 @@ public class Main {
 
     static void main() {
         FizzBuzz.doFizzBuzz(5);
-        System.out.println(Multiples.countFizzBuzz(100));
+        Multiples.countFizzBuzz(100, 3, 5);
     }
 }
